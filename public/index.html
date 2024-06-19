@@ -57,7 +57,7 @@
   </style>
 </head>
 <body>
-  <h2>Shards Update:</h2>
+  <h2>Malek - Shards Update:</h2>
   <div id="shardsMessages"></div>
   <h2>Server Chat:</h2>
   <div id="messages"></div>
@@ -107,7 +107,7 @@
       shardsMessageDiv.innerHTML = `<span class="username">${msg.username}</span>: ${msg.text} <span class="time">(${msg.time})</span>`
 
       shardsMessages.push(shardsMessageDiv)
-      if (shardsMessages.length > 3) {
+      if (shardsMessages.length > 2) {
         shardsMessages.shift()
       }
 
